@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100px;
+    width: 700px;
+    border: 2px solid deepskyblue;
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: deepskyblue;
+}
+
+#colored {
+    background-color: salmon;
+}
+
+#colored div{
+    background-color: purple;
+}
