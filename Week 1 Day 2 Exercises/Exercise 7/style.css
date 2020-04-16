@@ -1,0 +1,23 @@
+input {
+	border: 2px solid lime;
+	border-radius: 4px;
+
+	margin: 5px 0px 10px 0px;
+	padding: 12px 20px;
+
+	display: block;
+}
+
+button {
+	background: lime;
+
+	border: none;
+	border-radius: 30px;
+
+	padding: 10px;
+}
+
+form {
+	font-family: "Baloo Bhai 2", cursive;
+	font-weight: bold;
+}

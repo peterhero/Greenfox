@@ -1,0 +1,126 @@
+/* everything */
+
+.everything {
+	font-family: "Josefin Sans", sans-serif;
+	line-height: 1.5;
+}
+
+/* header */
+
+header {
+	background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+	background-size: cover;
+	height: 402px;
+	width: 1275px;
+	margin: 0px auto;
+	border-top: 4px solid black;
+
+	font-family: "Abril Fatface", cursive;
+	color: #222; /* grey */
+	letter-spacing: 2px;
+
+	position: relative;
+}
+
+header span {
+	font-size: 70px;
+	line-height: 0.9;
+}
+
+h1 {
+	position: absolute;
+	bottom: 20px;
+	left: 300px;
+}
+
+/* main */
+
+main {
+	margin: 0px auto;
+	padding-bottom: 30px;
+	width: 750px;
+	border-bottom: 5px solid black;
+}
+
+/* footer */
+
+footer {
+	width: 750px;
+}
+
+footer h2 {
+	margin-top: 50px;
+}
+
+/* start */
+
+.start {
+	font-size: 18px;
+	margin: 60px auto 0px auto;
+	width: 650px;
+}
+
+.start ul {
+	list-style-type: square;
+}
+
+/* parts */
+
+.part {
+	width: 670px;
+	margin: 0px auto;
+}
+
+.subpart {
+	margin: 40px 0px;
+}
+
+.subpart p {
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+h2 {
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 23px;
+	margin-bottom: 5px;
+}
+
+h4 {
+	margin-top: 0px;
+	/* subtitles font */
+	font-family: "Merriweather", serif;
+}
+
+/* quotes */
+
+blockquote {
+	font-family: "Abril Fatface", cursive;
+	color: white;
+	background-color: #444; /* darkslategray */
+	font-size: 47px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 50px 50px;
+	padding-right: 10px;
+	position: relative;
+}
+
+blockquote::before {
+	content: "“";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 150px;
+	line-height: 0.8;
+}
+
+/* specials */
+
+.bold {
+	font-weight: bold;
+}

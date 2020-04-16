@@ -1,0 +1,82 @@
+.container {
+	width: 600px;
+	margin: 0px auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+.newsletterBox {
+	border: solid thin #cfcfcf;
+	border-radius: 3px;
+	padding: 10px;
+	color: grey;
+	position: relative;
+}
+
+.newsletterBox h3 {
+	margin-top: 0px;
+}
+
+.closex {
+	position: absolute;
+	top: 0px;
+	right: 6px;
+	cursor: pointer;
+}
+
+.card {
+	background-color: #3cb878;
+	width: 180px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	color: white;
+	box-shadow: 0px 0px 5px 3px grey;
+}
+
+.cardHolder {
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type="email"] {
+	display: block;
+	width: 100%;
+	height: 30px;
+	padding: 3px;
+	border: solid thin #cfcfcf;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+button {
+	display: block;
+	width: 100%;
+	background-color: #3cb878;
+	color: white;
+	border: none;
+	height: 30px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+}
+
+#terms {
+	position: relative;
+	top: 2px;
+	left: 0px;
+}
+
+#questioncircle {
+	font-size: 70px;
+	color: white;
+	background-color: #3cb878;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	border-radius: 50%;
+
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
