@@ -1,0 +1,33 @@
+body {
+	background-color: aquamarine;
+}
+
+.all {
+	background-color: ghostwhite;
+	color: grey;
+	width: 400px;
+	text-align: center;
+	font-family: 'Manrope', sans-serif;
+	margin: auto auto;
+	letter-spacing: 8px;
+	font-size: 25px;
+}
+
+.form {
+	margin: 0px auto;
+	border: 1px solid grey;
+	height: 30px;
+	width: 200px;
+}
+
+button {
+	border: none;
+	height: 30px;
+	/* position: absolute; */
+}
+
+input {
+	border: none;
+	height: 30px;
+	/* position: absolute; */
+}

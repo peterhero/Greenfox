@@ -5,3 +5,5 @@ $('button').click(() => {
 	});
 });
 
+// <i class="fas fa-trash"></i>
+// <i class="far fa-check-circle"></i>
