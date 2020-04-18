@@ -6,28 +6,43 @@ body {
 	background-color: ghostwhite;
 	color: grey;
 	width: 400px;
-	text-align: center;
+	
 	font-family: 'Manrope', sans-serif;
 	margin: auto auto;
+	padding-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;	
 	letter-spacing: 8px;
-	font-size: 25px;
 }
 
 .form {
 	margin: 0px auto;
 	border: 1px solid grey;
-	height: 30px;
-	width: 200px;
+	border-radius: 2px;
+	height: 40px;
+	width: fit-content;
+	
 }
 
 button {
 	border: none;
-	height: 30px;
-	/* position: absolute; */
+	height: 40px;
+	background-color: violet;
+	color: white;
+	font-size: 17px;
 }
 
 input {
 	border: none;
-	height: 30px;
-	/* position: absolute; */
+	height: 38px;
+	width: 220px;
+	padding-left: 5px;
+}
+
+.todos {
+	margin: 0px auto;
+	width: 268px;
 }
