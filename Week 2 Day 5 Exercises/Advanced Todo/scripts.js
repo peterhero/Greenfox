@@ -1,5 +1,5 @@
 $('button').click(() => {
-	$('.todos').append(`<div class="todos-container">${$('input').val()}<i class="fas fa-trash delete"></i><i class="far fa-check-circle check"></i></div>`);
+	$('.todos').append(`<div class="todos-container">${$('input').val()}<img src="trash.png" alt="trash" class="delete"></img><img src="check1.png" alt="check" class="check"></img></div>`);
 	
 	$('.todos').css('font-family', `'Manrope', sans-serif`);
 	$('.todos').css('font-weight', 'bold');
@@ -9,20 +9,32 @@ $('button').click(() => {
 
 	$('.check').css('position', 'absolute');
 	$('.check').css('right', '0px');
+	$('.check').css('height', '20px');
 
+	
 	$('.delete').css('position', 'absolute');
-	$('.delete').css('right', '20px');
+	$('.delete').css('right', '25px');
+	$('.delete').css('height', '20px');
 
 	$('.todos-container').css('margin', '15px 0px');
-});
 
+	$('.todos-container').off().on('click', '.check',(event) => {
+		if($(event.target).css('content') === 'normal'){
+			$(event.target).css('content', 'url("./check2.png")');
+		} else if($(event.target).css('content')[$(event.target).css('content').length-7] === '1'){
+			$(event.target).css('content', 'url("./check2.png")');
+		} else {
+			$(event.target).css('content', 'url("./check1.png")');
+		}
 
-/*$('button').click(() => {
-	$('ul').append(`<li><span>${$('input').val()}</span></li>`);
-	$('ul').on('click', 'li', (event) => {
-		 $(event.target).css('text-decoration', 'line-through');
+		if ($(event.target).parent().css('color') === 'rgb(68, 68, 68)') {
+			$(event.target).parent().css('color', '#CCC');
+		} else {
+			$(event.target).parent().css('color', '#444');
+		}
 	});
-});*/
 
-// <i class="fas fa-trash"></i>
-// <i class="far fa-check-circle"></i>
+	$('.todos-container').on('click', '.delete', (event) => {
+		$(event.target).parent().remove();
+	 });
+});
